@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproduzindo a Listagem do YouTube com Grid Layout no CSS</title>
+    <link rel="stylesheet" type="text/css" href="/assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="/assets/style.css">
+</head>
+<body>
+    
+    <!-- INÍCIO DOS ELEMENTOS DO HEADER-->
+    <header>
+        <div class="superior">
+
+            <div class="menu">
+                <img src="/assets/img/menu.png" alt="Menu">
+            </div>
+
+            <div class="logo">
+                <img src="/assets/img/youtube.png" alt="Logo do YouTube">
+            </div>
+
+            <div id="divBusca">
+                <input type="text" id="txtBusca"/>
+                <button id="btnBusca"><img src="/assets/img/search.png" alt="botao buscar"></button> 
+            </div>
+
+            <div class="icon_video">
+                <img src="/assets/img/video.png" alt="icone de video">
+            </div>
+
+            <div class="icon_alert">
+                <img src="/assets/img/bell.png" alt="icone de alerta">
+            </div>
+
+            <div class="avatar">
+                <img src="/assets/img/akva.felipe.jpg" alt="foto do perfil">
+            </div>
+
+        </div>
+    </header>
+
+    <!--FIM DOS ELEMENTOS DO HEADER-->
+
+
+
+    <!--INÍCIO DO MENU ESQUERDO-->
+
+    <aside>
+        <div class="sidebar">
+
+            <div class="menu_lateral">
+                <div>
+                    <img src="/assets/img/home.png" alt="menu home">
+                </div>
+                <div>
+                    <p>Início</p>
+                </div>
+            </div>
+
+            <div class="menu_lateral">
+                <div>
+                    <img src="/assets/img/compass.png" alt="menu explorar">
+                </div>
+                <div>
+                    <p>Explorar</p>
+                </div>
+            </div>
+
+            <div class="menu_lateral">
+                <div>
+                    <img src="/assets/img/youtube_menu.png" alt="menu inscrições">
+                </div>
+                <div>
+                    <p>Inscrições</p>
+                </div>
+            </div>
+
+            <div class="menu_lateral">
+                <div>
+                    <img src="/assets/img/disc.png" alt="menu youtube music">
+                </div>
+                <div>
+                    <p>YouTube Music</p>
+                </div>
+            </div>
+
+            <div class="menu_lateral">
+                <div>
+                    <img src="/assets/img/thumbs-up.png" alt="menu videos que gostei">
+                </div>
+                <div>
+                    <p>Vídeos que gostei</p>
+                </div>
+            </div>
+
+            <div class="menu_lateral">
+                <div>
+                    <img src="/assets/img/clock.png" alt="menu assistir mais tarde">
+                </div>
+                <div>
+                    <p>Assistir mais tarde</p>
+                </div>
+            </div>
+
+            <div class="menu_lateral">
+                <div>
+                    <img src="/assets/img/download.png" alt="menu download">
+                </div>
+                <div>
+                    <p>Downloads</p>
+                </div>
+            </div>
+
+            <div class="menu_lateral">
+                <div>
+                    <img src="/assets/img/film.png" alt="menu filmes">
+                </div>
+                <div>
+                    <p>Filmes</p>
+                </div>
+            </div>
+
+            <div class="menu_lateral">
+                <div>
+                    <img src="/assets/img/book.png" alt="menu aprender">
+                </div>
+                <div>
+                    <p>Aprender</p>
+                </div>
+            </div>
+
+            <div class="menu_lateral">
+                <div>
+                    <img src="/assets/img/award.png" alt="menu esportes">
+                </div>
+                <div>
+                    <p>Esportes</p>
+                </div>
+            </div>
+            
+       
+    </aside>
+
+    <!--FIM DO MENU ESQUERDO-->
+
+
+
+    <!--INÍCIO DO CONTEÚDO PRINCIPAL-->
+
+    <main>
+        <div class="bloco_videos">
+            <div class="linha">
+                <div class="previa">
+                    <div class="img_previa">
+                        <img src="/assets/img/image 16.png" alt="video 1">
+                    </div>
+                    <div class="titulo_previa">
+                        <img src="/assets/img/channel_avatar.png" alt="logo canal">
+                        <span><h3>Geração Tech Unimed - BH - Ciência de Dados</h3></span>
+                    </div>
+                    <div class="info_previa">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+
+                <div class="previa">
+                    <div class="img_previa">
+                        <img src="/assets/img/image_2.png" alt="video 2">
+                    </div>
+                     <div class="titulo_previa">
+                        <img src="/assets/img/channel_avatar.png" alt="logo canal">
+                        <span><h3>Scrum Talks</h3></span>
+                    </div>
+                    <div class="info_previa">
+                        <p>1,6 mil visualizações</p>
+                        <p>Transmitido há 3 dias</p>
+                    </div>
+                </div>
+
+                <div class="previa">
+                    <div class="img_previa">
+                        <img src="/assets/img/image_3.png" alt="video 3">
+                    </div>
+                    <div class="titulo_previa">
+                        <img src="/assets/img/channel_avatar.png" alt="logo canal">
+                        <span><h3>Machine Learning Avançado - Fast Track</h3></span>
+                    </div>
+                    <div class="info_previa">
+                        <p>1,7 mil visualizações</p>
+                        <p>Transmitido há 4 dias</p>
+                    </div>
+                </div>
+
+                <div class="previa">
+                    <div class="img_previa">
+                        <img src="/assets/img/image_4.png" alt="video 4">
+                    </div>
+                    <div class="titulo_previa">
+                        <img src="/assets/img/channel_avatar.png" alt="logo canal">
+                        <span><h3>Global Skills #2 - Project Planning</h3></span>
+                    </div>
+                    <div class="info_previa">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="linha">
+                <div class="previa">
+                    <div class="img_previa">
+                        <img src="/assets/img/image_5.png" alt="video 5">
+                    </div>
+                    <div class="titulo_previa">
+                        <img src="/assets/img/channel_avatar.png" alt="logo canal">
+                        <span><h3>Como aprender a programar Python do ZERO</h3></span>
+                    </div>
+                    <div class="info_previa">
+                        <p>711 visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+
+                <div class="previa">
+                    <div class="img_previa">
+                        <img src="/assets/img/image 16.png" alt="video 6">
+                    </div>
+                    <div class="titulo_previa">
+                        <img src="/assets/img/channel_avatar.png" alt="logo canal">
+                        <span><h3>Geração Tech Unimed - BH - Ciência de Dados</h3></span>
+                    </div>
+                    <div class="info_previa">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+
+                <div class="previa">
+                    <div class="img_previa">
+                        <img src="/assets/img/image_2.png" alt="video 7">
+                    </div>
+                    <div class="titulo_previa">
+                        <img src="/assets/img/channel_avatar.png" alt="logo canal">
+                        <span><h3>Scrum Talks</h3></span>
+                    </div>
+                    <div class="info_previa">
+                        <p>1,6 mil visualizações</p>
+                        <p>Transmitido há 3 dias</p>
+                    </div>
+                </div>
+
+                <div class="previa">
+                    <div class="img_previa">
+                        <img src="/assets/img/image_3.png" alt="video 8">
+                    </div>
+                    <div class="titulo_previa">
+                        <img src="/assets/img/channel_avatar.png" alt="logo canal">
+                        <span><h3>Machine Learning Avançado - Fast Track</h3></span>
+                    </div>
+                    <div class="info_previa">
+                        <p>1,7 mil visualizações</p>
+                        <p>Transmitido há 4 dias</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="linha">
+                <div class="previa">
+                    <div class="img_previa">
+                        <img src="/assets/img/image_2.png" alt="video 9">
+                    </div>
+                    <div class="titulo_previa">
+                        <img src="/assets/img/channel_avatar.png" alt="logo canal">
+                        <span><h3>Scrum Talks</h3></span>
+                    </div>
+                    <div class="info_previa">
+                        <p>1,6 mil visualizações</p>
+                        <p>Transmitido há 3 dias</p>
+                    </div>
+                </div>
+
+                <div class="previa">
+                    <div class="img_previa">
+                        <img src="/assets/img/image_3.png" alt="video 10">
+                    </div>
+                    <div class="titulo_previa">
+                        <img src="/assets/img/channel_avatar.png" alt="logo canal">
+                        <span><h3>Machine Learning Avançado - Fast Track</h3></span>
+                    </div>
+                    <div class="info_previa">
+                        <p>1,7 mil visualizações</p>
+                        <p>Transmitido há 4 dias</p>
+                    </div>
+                </div>
+
+                <div class="previa">
+                    <div class="img_previa">
+                        <img src="/assets/img/image_4.png" alt="video 11">
+                    </div>
+                    <div class="titulo_previa">
+                        <img src="/assets/img/channel_avatar.png" alt="logo canal">
+                        <span><h3>Global Skills #2 - Project Planning</h3></span>
+                    </div>
+                    <div class="info_previa">
+                        <p>2,1 mil visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+
+                <div class="previa">
+                    <div class="img_previa">
+                        <img src="/assets/img/image_5.png" alt="video 12">
+                    </div>
+                    <div class="titulo_previa">
+                        <img src="/assets/img/channel_avatar.png" alt="logo canal">
+                        <span><h3>Como aprender a programar Python do ZERO</h3></span>
+                    </div>
+                    <div class="info_previa">
+                        <p>711 visualizações</p>
+                        <p>Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</div>
+</body>
+</html>
